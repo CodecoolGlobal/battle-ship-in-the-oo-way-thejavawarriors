@@ -25,19 +25,19 @@ public class Ship
         switch(myShipType)
         {
             case CARRIER:
-                this.shipSize = 1;
+                this.shipSize = 5;
                 break;
             case BATTLESHIP:
-                this.shipSize = 1;
+                this.shipSize = 4;
                 break;
             case CRUISER:
-                this.shipSize = 1;
+                this.shipSize = 3;
                 break;
             case SUBMARINE:
-                this.shipSize = 1;
+                this.shipSize = 3;
                 break;
             case DESTROYER:
-                this.shipSize = 1;
+                this.shipSize = 2;
                 break;
             default:
                 System.out.println("Invalid input!");
@@ -56,7 +56,7 @@ public class Ship
     public int getShipSize()
     {
         return this.shipSize;
-        
+
     } // end setShipSize()
 
 } // end class Ship
